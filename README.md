@@ -1,12 +1,12 @@
 # CFD Analysis of Flow Meters and Pipe Fittings
 ### FOSSEE Semester Internship | IIT Bombay. More information regarding this can be found here: https://cfd.fossee.in/lab-migration/lab-migration-run/19
 
-## 📌 Project Overview
+## Project Overview
 This project was completed during a semester-long internship at **IIT Bombay** under the **FOSSEE** program. The work involves the numerical simulation and turbulence modeling of incompressible flows through various engineering components using CFD. The primary goal was to study flow features and determine performance parameters such as the **Coefficient of Discharge ($C_d$)** and **Minor Loss Factors ($K$)**.
 
 ---
 
-## 🛠 Technical Implementation
+## Technical Implementation
 * **Algorithms:** The **SIMPLE algorithm** was used to simulate steady-state incompressible flow for all cases.
 * **Turbulence Models:** * **$k$-$\epsilon$ model:** Used for the Orifice Meter and Sudden Expansion/Contraction studies.
     * **$k$-$\omega$ SST model:** Utilized for the Pipe Bend analysis.
@@ -50,7 +50,7 @@ A comparative study of loss factors for 90° bends.
 * `/Pipe_Bends`: Meshing and setup for smooth and sharp elbow comparisons.
 * `/Docs`: Final internship report and reference data.
 
-## 🎓 References
+## References
 * [1] IIT Bombay Thermofluids Lab Manual.
 * [2] McCabe, Smith, & Harriott, *Unit Operations of Chemical Engineering*.
 * [3] White, F.M., *Viscous Fluid Flow*.
